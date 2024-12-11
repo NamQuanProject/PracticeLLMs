@@ -1,0 +1,102 @@
+Starting diagnostics at 2024-12-12 03:14:37
+
+===== System Information =====
+Operating System: Darwin
+MacOS Version: 15.1
+Architecture: ('64bit', '')
+Machine: arm64
+Processor: arm
+Total RAM: 16.00 GB
+Available RAM: 6.24 GB
+Free Disk Space: 117.59 GB
+
+===== File System Information =====
+Current Directory: /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses
+Write permission: OK
+
+Files in Current Directory:
+ - .env
+ - .git
+ - Week1
+ - diagnostics.py
+ - env
+ - report.txt
+
+===== Git Repository Information =====
+Git Repository Root: /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses
+WARNING: Could not get current commit: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+WARNING: No remote 'origin' configured
+
+===== Environment File Check =====
+.env file exists at: /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses/.env
+OPENAI_API_KEY found in .env file
+
+===== Anaconda Environment Check =====
+Anaconda environment is active:
+Environment Path: /Users/quannguyennam/Documents/Anaconda/anaconda3
+Environment Name: anaconda3
+Conda Version: conda 24.3.0
+
+Python Environment:
+Python Version: 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]
+Python Executable: /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses/env/bin/python
+
+Required Package Versions:
+openai: 1.57.2
+python-dotenv: 1.0.1
+requests: 2.32.3
+gradio: 5.8.0
+transformers: 4.47.0
+
+===== Virtualenv Check =====
+Virtualenv is active:
+Environment Path: /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses/env
+Environment Name: env
+
+Python Environment:
+Python Version: 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]
+Python Executable: /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses/env/bin/python
+
+Required Package Versions:
+openai: 1.57.2
+python-dotenv: 1.0.1
+requests: 2.32.3
+gradio: 5.8.0
+transformers: 4.47.0
+
+===== Network Connectivity Check =====
+SSL Version: OpenSSL 3.0.13 30 Jan 2024
+✓ Connected to https://www.google.com
+  Response time: 0.15s
+
+Performing bandwidth test using speedtest-cli...
+Download speed: 129.99 Mbps
+Upload speed: 242.35 Mbps
+
+===== Environment Variables Check =====
+
+PYTHONPATH is not set.
+
+Python sys.path:
+ - /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses
+ - /Users/quannguyennam/Documents/Anaconda/anaconda3/lib/python311.zip
+ - /Users/quannguyennam/Documents/Anaconda/anaconda3/lib/python3.11
+ - /Users/quannguyennam/Documents/Anaconda/anaconda3/lib/python3.11/lib-dynload
+ - /Users/quannguyennam/Documents/PracticeFolder/LLMs Courses/env/lib/python3.11/site-packages
+OPENAI_API_KEY is set after calling load_dotenv()
+
+===== Additional Diagnostics =====
+Temp directory is writable: /var/folders/6c/jh_2plcx4cv8m7vvst5rv7t80000gn/T
+
+===== Warnings Found =====
+The following warnings were detected. They might not prevent the program from running but could cause unexpected behavior:
+- Could not get current commit: fatal: ambiguous argument 'HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+- No remote 'origin' configured
+
+
+Completed diagnostics at 2024-12-12 03:14:54
+
