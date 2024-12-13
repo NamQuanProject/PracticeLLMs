@@ -3,3 +3,7 @@ selenium
 lxml
 openai
 transformers
+streamlit
+pandas
+numpy
+chardet
