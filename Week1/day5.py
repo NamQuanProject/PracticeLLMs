@@ -6,12 +6,9 @@ from typing import List, Dict, Optional
 from urllib.parse import urlparse
 
 import streamlit as st
-import dotenv
 from bs4 import BeautifulSoup
 from openai import OpenAI
-from dotenv import load_dotenv
 
-load_dotenv()
 
 # Logging Configuration
 logging.basicConfig(
@@ -101,7 +98,6 @@ class BrochureGenerator:
     """Brochure generation with enhanced error handling and styling."""
     
     def __init__(self, api_key: Optional[str] = None):
-        dotenv.load_dotenv()
         
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
         if not self.api_key:
@@ -155,7 +151,6 @@ class BrochureGenerator:
 
 def main():
     """Streamlit Application"""
-    load_dotenv()
 
     api_key = os.getenv("OPENAI_API_KEY")
     # Page Configuration
